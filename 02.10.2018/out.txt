@@ -33,7 +33,7 @@ $ valring ./prog
 ==2915== ERROR SUMMARY: 7 errors from 5 contexts (suppressed: 0 from 0)
 
 	/********Запуск valgrind с флагом для отображения места, в котором произошла утечка памяти********/
-$ valgrindleak-check=full ./prog
+$ valgrind--leak-check=full ./prog
 
 
 ==2925== Memcheck, a memory error detector
